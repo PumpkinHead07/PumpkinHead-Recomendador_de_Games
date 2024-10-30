@@ -1,0 +1,58 @@
+body {
+    color:white;
+    background:black;
+    font-family: "Share Tech", sans-serif;
+    margin-bottom: 100px;
+}
+
+header {
+    border-bottom: solid 2px rgb(255,49,49);
+    padding: 20px;
+    font-size: 32px;
+    color: rgb(255,49,49);
+}
+.chamada {
+    background: rgb(109, 24, 24);
+    padding-bottom: 80px;
+    padding-top: 80px;
+    display: flex;
+    justify-content: center;
+}
+.chamada-texto {
+    background:rgb(59, 12, 12);
+    margin-right: 5%;
+}
+.chamada-jogos {
+    display: flex;
+  overflow-x: auto;
+  gap: 10px;
+}
+.videos {
+    padding-left: 20px;
+  padding-right: 20px;
+}
+.Chamada-jogos img {
+opacity: 0,1;
+height: 200px;
+}
+.Chamada-jogos img:hover {
+    opacity: 1;
+    border: 2px solid red;
+    }
+section {
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+div{
+    margin-right: 20px;
+}
+h1 {
+    font-size: 40px;
+  }
+  
+  p {
+    font-size: 20px;
+  }
+  img {
+    height: 200px;
+  }
